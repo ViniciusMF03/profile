@@ -1,0 +1,84 @@
+body {
+  background-color: #1F316F;
+}
+
+h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  color: #1F316F;
+}
+
+i {
+  color: #1F316F;
+  font-size: 30px;
+}
+
+i:hover{
+  color: #3f508e;
+  transition: 0.25s;
+}
+
+.card-white {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #5B99C2;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.btn-blue{
+  background-color: #1F316F;
+  color: #FEDB39;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #5B99C2;
+  transition: 0.35s;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
